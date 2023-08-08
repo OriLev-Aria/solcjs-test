@@ -1,0 +1,6 @@
+Searching for dependency:  Dog.sol
+>>>>>>>>>>>>>>>>>>>>>>>> ERRORS <<<<<<<<<<<<<<<<<<<<<<<<
+
+Dog.sol:5:24: ParserError: Function, variable, struct or modifier declaration expected.
+    string public Name;;
+                       ^

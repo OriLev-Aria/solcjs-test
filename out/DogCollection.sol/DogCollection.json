@@ -1,0 +1,588 @@
+{
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "Dogs",
+      "outputs": [
+        {
+          "internalType": "contract Dog",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        }
+      ],
+      "name": "addDog",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getDogsCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506105ac806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063222aea0214610046578063b9b3832b14610060578063dcfd12e114610108575b600080fd5b61004e610141565b60408051918252519081900360200190f35b6101066004803603602081101561007657600080fd5b81019060208101813564010000000081111561009157600080fd5b8201836020820111156100a357600080fd5b803590602001918460018302840111640100000000831117156100c557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250929550610147945050505050565b005b6101256004803603602081101561011e57600080fd5b503561022c565b604080516001600160a01b039092168252519081900360200190f35b60005490565b60008160405161015690610253565b60208082528251818301528251829160408301919085019080838360005b8381101561018c578181015183820152602001610174565b50505050905090810190601f1680156101b95780820380516001836020036101000a031916815260200191505b5092505050604051809103906000f0801580156101da573d6000803e3d6000fd5b50600080546001810182559080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5630180546001600160a01b0319166001600160a01b03929092169190911790555050565b6000818154811061023957fe5b6000918252602090912001546001600160a01b0316905081565b610317806102618339019056fe608060405234801561001057600080fd5b506040516103173803806103178339818101604052602081101561003357600080fd5b810190808051604051939291908464010000000082111561005357600080fd5b90830190602082018581111561006857600080fd5b825164010000000081118282018810171561008257600080fd5b82525081516020918201929091019080838360005b838110156100af578181015183820152602001610097565b50505050905090810190601f1680156100dc5780820380516001836020036101000a031916815260200191505b50604052505081516100f6915060009060208401906100fd565b5050610198565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061013e57805160ff191683800117855561016b565b8280016001018555821561016b579182015b8281111561016b578251825591602001919060010190610150565b5061017792915061017b565b5090565b61019591905b808211156101775760008155600101610181565b90565b610170806101a76000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c80638052474d14610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea265627a7a723158207275523c1f9f6e60838f92b91c34fbc5c2f7cd5be635772853f0a96815d29bec64736f6c63430005110032a265627a7a723158209641cb03907c5a09c27020a307b6cfd6084d427bcaa1d948dbc7ebf1029683b464736f6c63430005110032",
+    "sourceMap": "46:266:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;46:266:1;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063222aea0214610046578063b9b3832b14610060578063dcfd12e114610108575b600080fd5b61004e610141565b60408051918252519081900360200190f35b6101066004803603602081101561007657600080fd5b81019060208101813564010000000081111561009157600080fd5b8201836020820111156100a357600080fd5b803590602001918460018302840111640100000000831117156100c557600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600092019190915250929550610147945050505050565b005b6101256004803603602081101561011e57600080fd5b503561022c565b604080516001600160a01b039092168252519081900360200190f35b60005490565b60008160405161015690610253565b60208082528251818301528251829160408301919085019080838360005b8381101561018c578181015183820152602001610174565b50505050905090810190601f1680156101b95780820380516001836020036101000a031916815260200191505b5092505050604051809103906000f0801580156101da573d6000803e3d6000fd5b50600080546001810182559080527f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e5630180546001600160a01b0319166001600160a01b03929092169190911790555050565b6000818154811061023957fe5b6000918252602090912001546001600160a01b0316905081565b610317806102618339019056fe608060405234801561001057600080fd5b506040516103173803806103178339818101604052602081101561003357600080fd5b810190808051604051939291908464010000000082111561005357600080fd5b90830190602082018581111561006857600080fd5b825164010000000081118282018810171561008257600080fd5b82525081516020918201929091019080838360005b838110156100af578181015183820152602001610097565b50505050905090810190601f1680156100dc5780820380516001836020036101000a031916815260200191505b50604052505081516100f6915060009060208401906100fd565b5050610198565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061013e57805160ff191683800117855561016b565b8280016001018555821561016b579182015b8281111561016b578251825591602001919060010190610150565b5061017792915061017b565b5090565b61019591905b808211156101775760008155600101610181565b90565b610170806101a76000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c80638052474d14610030575b600080fd5b6100386100ad565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561007257818101518382015260200161005a565b50505050905090810190601f16801561009f5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6000805460408051602060026001851615610100026000190190941693909304601f810184900484028201840190925281815292918301828280156101335780601f1061010857610100808354040283529160200191610133565b820191906000526020600020905b81548152906001019060200180831161011657829003601f168201915b50505050508156fea265627a7a723158207275523c1f9f6e60838f92b91c34fbc5c2f7cd5be635772853f0a96815d29bec64736f6c63430005110032a265627a7a723158209641cb03907c5a09c27020a307b6cfd6084d427bcaa1d948dbc7ebf1029683b464736f6c63430005110032",
+    "sourceMap": "46:266:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;46:266:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;225:85;;;:::i;:::-;;;;;;;;;;;;;;;;101:118;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;101:118:1;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;101:118:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;101:118:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;101:118:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;101:118:1;;-1:-1:-1;101:118:1;;-1:-1:-1;;;;;101:118:1:i;:::-;;76:17;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;76:17:1;;:::i;:::-;;;;-1:-1:-1;;;;;76:17:1;;;;;;;;;;;;;;225:85;270:4;292:11;225:85;:::o;101:118::-;156:7;181:5;166:22;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;166:22:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;-1:-1;198:4:1;27:10:-1;;39:1;23:18;;45:23;;198:14:1;;;;;;;-1:-1:-1;;;;;;198:14:1;-1:-1:-1;;;;;198:14:1;;;;;;;;;;-1:-1:-1;;101:118:1:o;76:17::-;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;76:17:1;;-1:-1:-1;76:17:1;:::o;46:266::-;;;;;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "Dogs(uint256)": "dcfd12e1",
+    "addDog(string)": "b9b3832b",
+    "getDogsCount()": "222aea02"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"Dogs\",\"outputs\":[{\"internalType\":\"contract Dog\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"}],\"name\":\"addDog\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getDogsCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/DogCollection.sol\":\"DogCollection\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Dog.sol\":{\"keccak256\":\"0x2aaea95bacc4ce60b23a89a4784ecedf40b8a22127f0170798eea34159a4e096\",\"urls\":[\"bzz-raw://d79fa2d74ff6d2164c844bea1b39f5d412a8028e160d658db8cc551d9723e5e1\",\"dweb:/ipfs/QmfVZ3ieh1mDeCYGrqqfeYRJrmMrjkWYfhJcDLb4KaZLGc\"]},\"contracts/DogCollection.sol\":{\"keccak256\":\"0x624762414d0b74bc59c238e66c40db9d23cd9f301a9db9463f6c842eeb853930\",\"urls\":[\"bzz-raw://2fec63b3905a40a697220e7f25492bdded3bc3f56441f2d8b0461d72bcb9d3aa\",\"dweb:/ipfs/Qmbq9f2d2FaWXJYzenADz9KpoeBpYwSV8CkdoemAk9bvf7\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.5.17+commit.d19bba13"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "Dogs",
+          "outputs": [
+            {
+              "internalType": "contract Dog",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "string",
+              "name": "_name",
+              "type": "string"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "addDog"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getDogsCount",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "methods": {}
+      },
+      "userdoc": {
+        "methods": {}
+      }
+    },
+    "settings": {
+      "remappings": [],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "compilationTarget": {
+        "contracts/DogCollection.sol": "DogCollection"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/Dog.sol": {
+        "keccak256": "0x2aaea95bacc4ce60b23a89a4784ecedf40b8a22127f0170798eea34159a4e096",
+        "urls": [
+          "bzz-raw://d79fa2d74ff6d2164c844bea1b39f5d412a8028e160d658db8cc551d9723e5e1",
+          "dweb:/ipfs/QmfVZ3ieh1mDeCYGrqqfeYRJrmMrjkWYfhJcDLb4KaZLGc"
+        ],
+        "license": null
+      },
+      "contracts/DogCollection.sol": {
+        "keccak256": "0x624762414d0b74bc59c238e66c40db9d23cd9f301a9db9463f6c842eeb853930",
+        "urls": [
+          "bzz-raw://2fec63b3905a40a697220e7f25492bdded3bc3f56441f2d8b0461d72bcb9d3aa",
+          "dweb:/ipfs/Qmbq9f2d2FaWXJYzenADz9KpoeBpYwSV8CkdoemAk9bvf7"
+        ],
+        "license": null
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/DogCollection.sol",
+    "id": 50,
+    "exportedSymbols": {
+      "DogCollection": [
+        49
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "0:312:1",
+    "nodes": [
+      {
+        "id": 16,
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".2"
+        ]
+      },
+      {
+        "id": 17,
+        "nodeType": "ImportDirective",
+        "src": "25:19:1",
+        "nodes": [],
+        "absolutePath": "contracts/Dog.sol",
+        "file": "./Dog.sol",
+        "scope": 50,
+        "sourceUnit": 15,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 49,
+        "nodeType": "ContractDefinition",
+        "src": "46:266:1",
+        "nodes": [
+          {
+            "id": 20,
+            "nodeType": "VariableDeclaration",
+            "src": "76:17:1",
+            "nodes": [],
+            "constant": false,
+            "name": "Dogs",
+            "scope": 49,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_contract$_Dog_$14_$dyn_storage",
+              "typeString": "contract Dog[]"
+            },
+            "typeName": {
+              "baseType": {
+                "contractScope": null,
+                "id": 18,
+                "name": "Dog",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 14,
+                "src": "76:3:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_contract$_Dog_$14",
+                  "typeString": "contract Dog"
+                }
+              },
+              "id": 19,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "76:5:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_contract$_Dog_$14_$dyn_storage_ptr",
+                "typeString": "contract Dog[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "id": 39,
+            "nodeType": "FunctionDefinition",
+            "src": "101:118:1",
+            "nodes": [],
+            "body": {
+              "id": 38,
+              "nodeType": "Block",
+              "src": "146:73:1",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    26
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 26,
+                      "name": "dog",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 38,
+                      "src": "156:7:1",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Dog_$14",
+                        "typeString": "contract Dog"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 25,
+                        "name": "Dog",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 14,
+                        "src": "156:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Dog_$14",
+                          "typeString": "contract Dog"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 31,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 29,
+                        "name": "_name",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 22,
+                        "src": "181:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      ],
+                      "id": 28,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "NewExpression",
+                      "src": "166:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_string_memory_ptr_$returns$_t_contract$_Dog_$14_$",
+                        "typeString": "function (string memory) returns (contract Dog)"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 27,
+                        "name": "Dog",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 14,
+                        "src": "170:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Dog_$14",
+                          "typeString": "contract Dog"
+                        }
+                      }
+                    },
+                    "id": 30,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [
+                      "name"
+                    ],
+                    "nodeType": "FunctionCall",
+                    "src": "166:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Dog_$14",
+                      "typeString": "contract Dog"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "156:32:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 35,
+                        "name": "dog",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 26,
+                        "src": "208:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Dog_$14",
+                          "typeString": "contract Dog"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_contract$_Dog_$14",
+                          "typeString": "contract Dog"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 32,
+                        "name": "Dogs",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 20,
+                        "src": "198:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_contract$_Dog_$14_$dyn_storage",
+                          "typeString": "contract Dog[] storage ref"
+                        }
+                      },
+                      "id": 34,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "198:9:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_contract$_Dog_$14_$returns$_t_uint256_$",
+                        "typeString": "function (contract Dog) returns (uint256)"
+                      }
+                    },
+                    "id": 36,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "198:14:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 37,
+                  "nodeType": "ExpressionStatement",
+                  "src": "198:14:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addDog",
+            "parameters": {
+              "id": 23,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 22,
+                  "name": "_name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 39,
+                  "src": "118:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 21,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "118:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "117:21:1"
+            },
+            "returnParameters": {
+              "id": 24,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "146:0:1"
+            },
+            "scope": 49,
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "id": 48,
+            "nodeType": "FunctionDefinition",
+            "src": "225:85:1",
+            "nodes": [],
+            "body": {
+              "id": 47,
+              "nodeType": "Block",
+              "src": "275:35:1",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 44,
+                      "name": "Dogs",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 20,
+                      "src": "292:4:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_contract$_Dog_$14_$dyn_storage",
+                        "typeString": "contract Dog[] storage ref"
+                      }
+                    },
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "292:11:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 43,
+                  "id": 46,
+                  "nodeType": "Return",
+                  "src": "285:18:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getDogsCount",
+            "parameters": {
+              "id": 40,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "246:2:1"
+            },
+            "returnParameters": {
+              "id": 43,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 42,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "270:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 41,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "270:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "269:6:1"
+            },
+            "scope": 49,
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "baseContracts": [],
+        "contractDependencies": [
+          14
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          49
+        ],
+        "name": "DogCollection",
+        "scope": 50
+      }
+    ]
+  },
+  "id": 1
+}
